@@ -1,0 +1,108 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #222;
+}
+
+/* Template Link */
+.original-link {
+  background: #c8e6c9;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #5e35b1, #00bcd4);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.animated-header {
+  animation: slideIn 1.2s ease-out;
+}
+
+/* JS Welcome */
+.js-welcome {
+  background: #fff59d;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Mood Section */
+.mood-selector {
+  text-align: center;
+  padding: 30px;
+  background: #e3f2fd;
+}
+
+select, button {
+  padding: 10px;
+  margin: 8px;
+  font-size: 1em;
+}
+
+#moodOutput {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+/* Featured Section */
+.hero-bike {
+  text-align: center;
+  padding: 30px;
+}
+
+.hero-bike img {
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.4s ease;
+}
+
+.hero-bike img:hover {
+  transform: scale(1.05);
+}
+
+/* Gallery Section */
+.bike-showcase {
+  padding: 30px;
+  background: #ede7f6;
+  text-align: center;
+}
+
+.showcase-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.showcase-grid img {
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.showcase-grid img:hover {
+  transform: scale(1.08);
+}
+
+/* Footer */
+footer {
+  background: #5e35b1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Animations */
+@keyframes slideIn {
+  from { transform: translateY(-100px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
